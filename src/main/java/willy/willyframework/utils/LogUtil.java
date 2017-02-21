@@ -5,6 +5,7 @@ import android.util.Log;
 /**
  * 自定义日志输出类
  * Created by willy on 16/7/18.
+ * test
  */
 public class LogUtil {
     private static boolean DEBUG = false;
