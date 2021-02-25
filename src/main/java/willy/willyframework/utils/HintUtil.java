@@ -1,7 +1,8 @@
 package willy.willyframework.utils;
 
-import android.support.design.widget.Snackbar;
 import android.view.View;
+
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * 一些提示的工具类
@@ -14,6 +15,6 @@ public class HintUtil {
      * @param msg   弹出的信息
      */
     public static void showSnack(View view,String msg){
-        Snackbar.make(view,msg,Snackbar.LENGTH_SHORT).show();
+        Snackbar.make(view,msg, Snackbar.LENGTH_SHORT).show();
     }
 }

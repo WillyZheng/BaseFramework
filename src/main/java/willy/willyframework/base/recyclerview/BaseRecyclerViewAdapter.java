@@ -1,7 +1,8 @@
 package willy.willyframework.base.recyclerview;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * recyclerView的二次封装adapter,封装了一些基础的点击功能
